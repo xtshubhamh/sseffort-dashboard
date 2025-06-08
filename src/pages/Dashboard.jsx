@@ -14,15 +14,13 @@ const Dashboard = ({ title, descriptio, Dashboard }) => {
     <>
     
       {/* top Block */}
-      <div className=' flex mt-3 border h-[200px] w-full rounded-3xl p-2'>
-        <div className='border rounded-3xl w-64'></div>
-        <div className='border rounded-3xl w-64'></div>
-        <div className='border rounded-3xl w-64'></div>
-        <div className='border rounded-3xl w-64'></div>
+      <div className='mt-3 border h-[200px] w-full rounded-3xl p-2'>
+        <h4 className=' p-4 font-bold text-xl'>Welocme Polytechnic !</h4>
+        <p className='px-4 text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ipsum magni quidem placeat voluptatibus deserunt quia facilis laudantium id modi, possimus veritatis obcaecati nihil facere voluptates tenetur laboriosam ullam maiores, omnis temporibus qui. Voluptatem cum aspernatur aliquid hic, quis quo expedita voluptatum sit ullam delectus saepe in maxime quia libero.</p>
       </div>
       <div className='flex flex-col lg:flex-row gap-4 mt-4'>
         {/* Sidebar */}
-        <div className='p-4 border rounded-3xl w-full max-w-md bg-blue-50'>
+        <div className='p-4 border rounded-3xl w-full max-w-md'>
           <div className='border-b pb-3'>
             <h2>View Notes: </h2>
             <ul>
@@ -46,7 +44,7 @@ const Dashboard = ({ title, descriptio, Dashboard }) => {
         </div>
 
         {/* Students Table */}
-        <div className='border rounded-3xl w-full max-w-3xl bg-yellow-100'>
+        <div className='border rounded-3xl w-full max-w-3xl '>
           <div className='p-3'>
             <h2>All Students:</h2>
             <div className="overflow-x-auto">
@@ -75,7 +73,7 @@ const Dashboard = ({ title, descriptio, Dashboard }) => {
 
         {/* Stats Cards */}
         <div className='flex flex-col gap-4 w-full '>
-          <div className='border rounded-3xl p-3 w-full bg-violet-200'>
+          <div className='border rounded-3xl p-3 w-full '>
             <h5>Total Purchase:</h5>
             <h3 className='text-green-500'>$12,000</h3>
             <h5>Total Students:</h5>
@@ -83,7 +81,7 @@ const Dashboard = ({ title, descriptio, Dashboard }) => {
             <h5>Total Course:</h5>
             <h3 className='text-green-500'>16 Branches</h3>
           </div>
-          <div className='border rounded-3xl h-[150px] w-full bg-green-200'></div>
+          <div className='border rounded-3xl h-[150px] w-full '></div>
         </div>
       </div>
 
